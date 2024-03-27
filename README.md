@@ -34,9 +34,10 @@ Jupyter環境を試せるWebサービス、Binderを使って試す方法。
 4. `localhost:8888` を開き、先程コピーしたトークンを入力してJupyter環境に入る
 5. `work`フォルダに移動する
 5. ランチャーからターミナルを開く
-6. `conda env update --file environment.yml` を実行する
-7. extensions（パズルのピースっぽいロゴ）をクリックし `jupyterlab-git` を検索しインストールする
-8. コンテナを再起動する
+6. `conda env update --name base --file environment.yml` を実行する
+7. `nbstripout --install --attributes .gitattributes` を実行する
+8. extensions（パズルのピースっぽいロゴ）をクリックし `jupyterlab-git` を検索しインストールする
+9. コンテナを再起動する
 
 ## 試し方
 
