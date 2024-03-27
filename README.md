@@ -11,6 +11,8 @@ Pythonファイルやノートブックの内容は適当なサンプルとし�
 
 ### VSCode
 
+この環境ではRyeを利用してパッケージを管理している
+
 1. このリポジトリをzipでダウンロードあるいはフォークしてクローンする
 2. リポジトリのフォルダでVSCodeを開く
 3. Reopen Folder in ...
@@ -24,15 +26,17 @@ Jupyter環境を試せるWebサービス、Binderを使って試す方法。
 
 ### JupyterLabをDockerで起動
 
+この環境ではcondaを利用したパッケージ管理を行っている。
+
 1. このリポジトリをzipでダウンロードあるいはフォークしてクローンする
-2. `docker run -d -p 8888:8888 -v $(pwd):/work jupyter/minimal-notebook:2023-10-20` などでJupyterLabのサーバーを起動する
+2. `docker run -d -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter/minimal-notebook:2023-10-20` などでJupyterLabのサーバーを起動する
 3. コンテナのログからトークンをコピーする
 4. `localhost:8888` を開き、先程コピーしたトークンを入力してJupyter環境に入る
+5. `work`フォルダに移動する
 5. ランチャーからターミナルを開く
-6. `conda env create --file environment.yml` を実行する
-7. コンテナを再起動
-
-データ分析によく使われるとされるので `conda` を利用する前提で進める。
+6. `conda env update --file environment.yml` を実行する
+7. extensions（パズルのピースっぽいロゴ）をクリックし `jupyterlab-git` を検索しインストールする
+8. コンテナを再起動する
 
 ## 試し方
 
