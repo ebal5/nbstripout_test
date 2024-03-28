@@ -19,6 +19,7 @@ Pythonファイルやノートブックの内容は適当なサンプルとし�
 2. リポジトリのフォルダでVSCodeを開く
 3. Reopen Folder in ...
 4. ryeによって必要なライブラリがインストールされる
+5. リポジトリでターミナルを開き、`nbstripout --install --attributes .gitattributes`を実行する
 
 ### Binder
 
