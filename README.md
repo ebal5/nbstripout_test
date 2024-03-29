@@ -32,11 +32,11 @@ Pythonファイルやノートブックの内容は適当なサンプルとし�
 3. コンテナのログからトークンをコピーする
 4. `localhost:8888` を開き、先程コピーしたトークンを入力してJupyter環境に入る
 5. `work`フォルダに移動する
-5. ランチャーからターミナルを開く
-6. `conda env update --file environment.yml` を実行する
-7. `nbstripout --install --attributes .gitattributes` を実行する
-8. extensions（パズルのピースっぽいロゴ）をクリックし `jupyterlab-git` を検索しインストールする
-9. コンテナを再起動する
+6. ランチャーからターミナルを開く
+7. `conda env update --file environment.yml` を実行する
+8. `nbstripout --install --attributes .gitattributes` を実行する
+9. extensions（パズルのピースっぽいロゴ）をクリックし `jupyterlab-git` を検索しインストールする
+10. コンテナを再起動する
 
 ## 試し方
 
