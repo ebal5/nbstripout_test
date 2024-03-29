@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ebal5/nbstripout_test/main?labpath=notebooks%2Fsample_notebook1.ipynb)
+
 # JupyterLab利用プロジェクトをGitで管理する:nbstripout編
 
 [記事](https://zenn.dev/articles/e8fcb7aa4736f3) で試す内容のためのリポジトリ。
@@ -20,12 +22,6 @@ Pythonファイルやノートブックの内容は適当なサンプルとし�
 3. Reopen Folder in ...
 4. ryeによって必要なライブラリがインストールされる
 5. リポジトリでターミナルを開き、`nbstripout --install --attributes .gitattributes`を実行する
-
-### Binder
-
-Jupyter環境を試せるWebサービス、Binderを使って試す方法。
-
-1. 次のリンク先を開く
 
 ### JupyterLabをDockerで起動
 
